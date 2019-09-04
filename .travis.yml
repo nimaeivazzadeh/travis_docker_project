@@ -9,6 +9,7 @@ script:
  - docker pull hello-world
  - docker run -d hello-world
  - docker ps
+ - ./hello_docker.sh
 
 after_script:
  - echo "Image built and run successfully"
