@@ -11,5 +11,5 @@ script:
  - docker ps
 
  after_script:
- echo "Image built and run successfully"
+ - echo "Image built and run successfully"
  
